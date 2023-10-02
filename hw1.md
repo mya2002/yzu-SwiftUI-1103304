@@ -3,6 +3,8 @@
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw1.png">
+    </td>
+    <td>
 ```swift
 import SwiftUI
 //學號，姓名，大頭照，SF simbol，你的一句話 deadline:11/06
@@ -38,7 +40,6 @@ struct ContentView: View {
                     ,
                     alignment: .bottom
                 )*/
-                
             Text("I'm the one I should love in the world.")
                 .fontWeight(.heavy)
                 .lineSpacing(10)
