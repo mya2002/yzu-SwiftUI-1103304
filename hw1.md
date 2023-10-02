@@ -1,4 +1,4 @@
-<h1>hw1</h1>
+<h1>Homework_1</h1>
 <table>
   <tr>
     <td>
@@ -41,6 +41,6 @@ struct ContentView: View {
     }
 }
 ```
-    </td>
+    
   </tr>
 </table>
