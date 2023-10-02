@@ -28,19 +28,6 @@ struct ContentView: View {
                 .clipShape(Circle())
                 .opacity(0.8)
                 .shadow(color: .gray, radius: 10, x: 0.0, y:0.0)
-               /* .overlay(
-                    Text("ooooooo")
-                        .fontWeight(.heavy)
-                        .lineSpacing(20)
-                        .font(.system(size:32.0))
-                        .foregroundColor(.white)
-                        .frame(width:350,height:150,alignment:.center)
-                        .background(Color.purple)
-                        .cornerRadius(30)
-                        .opacity(0.8)
-                    ,
-                    alignment: .bottom
-                )*/
             Text("I'm the one I should love in the world.")
                 .fontWeight(.heavy)
                 .lineSpacing(10)
