@@ -4,7 +4,7 @@
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw1.png">
 ```swift
-      import SwiftUI
+import SwiftUI
 //學號，姓名，大頭照，SF simbol，你的一句話 deadline:11/06
 struct ContentView: View {
     var body: some View {
@@ -12,19 +12,19 @@ struct ContentView: View {
             Image(systemName:"face.smiling")
                 .font(.system(size:100))
                 .foregroundColor(.green)
-                .shadow(color:.gray, radius:5, x: 5, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+                .shadow(color:.gray, radius:5, x: 5, y:0.0)
          Text("1103304王彥雅")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
+                .font(.title)
                 .padding()
             Image("影像內容")
                 .resizable()
-                .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                .aspectRatio(contentMode: .fill)
                 .frame(width:200,height:200,alignment: .center)
                 .background(Color.yellow)
                 .clipShape(Circle())
-                .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
-                .shadow(color: .gray, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 0.0, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+                .opacity(0.8)
+                .shadow(color: .gray, radius: 10, x: 0.0, y:0.0)
                /* .overlay(
                     Text("ooooooo")
                         .fontWeight(.heavy)
