@@ -1,5 +1,5 @@
 <h1>hw1</h1>
-<tabel>
+<table>
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw1.png">
@@ -43,4 +43,4 @@ struct ContentView: View {
 ```
     </td>
   </tr>
-</tabel>
+</table>
