@@ -8,6 +8,7 @@
       
 ```swift
 import SwiftUI
+
 struct ContentView: View {
     @State var randomList = ["布","剪刀","石頭"]
     @State var randomImg = ["Paper","scissor","stone"]
@@ -21,12 +22,12 @@ struct ContentView: View {
         VStack {
         Image(randomImg[randomInt])
             .resizable()
-            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .aspectRatio(contentMode: .fill)
             .frame(width:100,height:100,alignment: .center)
             .background(Color.yellow)
             .clipShape(Circle())
-            .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
-            .shadow(color: .gray, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 0.0, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+            .opacity(0.8/)
+            .shadow(color: .gray, radius: 10, x: 0.0, y:0.0)
         if ourInt == 1{
             if ourInt>randomInt{
                 Text("你贏了")
@@ -81,12 +82,12 @@ struct ContentView: View {
         }
         Image(randomImg[ourInt])
             .resizable()
-            .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+            .aspectRatio(contentMode: .fill)
             .frame(width:100,height:100,alignment: .center)
             .background(Color.yellow)
             .clipShape(Circle())
-            .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
-            .shadow(color: .gray, radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 0.0, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/)
+            .opacity(0.8)
+            .shadow(color: .gray, radius: 10, x: 0.0, y: 0.0)
         Button(action:{
             self.ourInt = 2
             self.randomInt = Int.random(in: 0...2)
