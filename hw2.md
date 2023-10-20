@@ -7,8 +7,8 @@
     <td>
       
 ```swift
-import SwiftUI
 
+import SwiftUI
 struct ContentView: View {
     @State var randomList = ["布","剪刀","石頭"]
     @State var randomImg = ["Paper","scissor","stone"]
@@ -127,6 +127,7 @@ struct ContentView: View {
         }
     }
 }
+
 ```
     
   </tr>
