@@ -130,6 +130,5 @@ struct ContentView: View {
 
 ```
 
-    </td>
   </tr>
 </table>
