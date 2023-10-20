@@ -126,9 +126,8 @@ struct ContentView: View {
                 .background(Color.pink)
                 .foregroundColor(.white)
                 .cornerRadius(20)
-        })
-        
-    }
+        })  
+      }
     }
 }
 ```
