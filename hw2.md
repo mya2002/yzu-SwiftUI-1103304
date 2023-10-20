@@ -1,8 +1,8 @@
-<h1>Homework_1</h1>
+<h1>Homework_2</h1>
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw2.png">
+      <img src="https://githubu.com/mya2002/yzu-SwiftUI-1103304/main/imghw2.png">
     </td>
     <td>
       
