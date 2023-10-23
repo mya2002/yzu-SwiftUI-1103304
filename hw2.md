@@ -3,7 +3,6 @@
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw2.png">
-      <video src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/video2.mov"controls="controls" style="max-width: 730px;"></video>
     </td>
     <td>
       
@@ -129,7 +128,7 @@ struct ContentView: View {
     }
 }
 ```
-
+<video src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/video2.mov"controls="controls" style="max-width: 730px;"></video>
   </td>
   </tr>
 </table>
