@@ -2,7 +2,8 @@
 <table>
   <tr>
     <td>
-      <video src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/video2.mov"></video>
+      <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw2.png">
+      
     </td>
     <td>
       
