@@ -1,10 +1,8 @@
 <h1>Homework_2</h1>
 <table>
   <tr>
-    <td><iframe src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/video2.mp4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height=600 width=800> 
-</iframe>
+    <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw2.png">
-      
     </td>
     <td>
       
