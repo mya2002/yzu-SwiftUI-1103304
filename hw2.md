@@ -4,8 +4,8 @@
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/IMG_1433.gif">
      
-    </td>
-    <td>
+    
+    
       
 ```swift
 import SwiftUI
