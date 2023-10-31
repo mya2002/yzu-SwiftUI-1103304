@@ -3,7 +3,7 @@
   <tr>
     <td>
       <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/IMG_1433.gif">
-      https://github.com/mya2002/yzu-SwiftUI-1103304/assets/102652513/4cda3e4f-17de-45c4-8d26-0f43e8bc168d
+     
     </td>
     <td>
       
