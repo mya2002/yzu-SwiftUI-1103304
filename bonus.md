@@ -8,7 +8,6 @@
       
 ```swift
 import SwiftUI
-
 struct ContentView: View {
     let displayFontType = [".default",".rounded",".monspaced",".serif"]
     @State var displayFontSelected = 0
@@ -52,9 +51,7 @@ struct ContentView: View {
                 Section(header: Text("日期"), content: {
                     DatePicker("\(date.formatted(date: .numeric, time: .omitted))", selection: $date, displayedComponents: [.date])
                 })
-            }
-            )
-                .navigationBarTitle("Settings")
+            }).navigationBarTitle("Settings")
         }
     }
 }
