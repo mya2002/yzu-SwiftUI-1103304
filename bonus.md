@@ -105,17 +105,6 @@ struct ContentView: View {
                 })
             }
             )
-              
-        }  .navigationBarTitle("Settings")
-    }
-}
-```
-    
-  </tr>
-</table>
-
-            }
-            )
                 .navigationBarTitle("Settings")
         }
     }
