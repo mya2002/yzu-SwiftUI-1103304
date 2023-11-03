@@ -1,61 +1,46 @@
-<h1>Bonus</h1>
+<h1>Homework_1</h1>
 <table>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/imghw1.png">
+      <img src="https://raw.githubusercontent.com/mya2002/yzu-SwiftUI-1103304/main/IMG_1435.png">
     </td>
     <td>
       
 ```swift
 import SwiftUI
+//學號，姓名，大頭照，SF simbol，你的一句話 deadline:11/06
 struct ContentView: View {
-    let displayFontType = [".default",".rounded",".monspaced",".serif"]
-    @State var displayFontSelected = 0
-    @State var IsDeepScheme = false
-    @State var colorArray:Array = [255.0,255.0,255.0]
-    @State var stepperValue = 0
-    @State var sliderValue = 0.0
-    @State var date = Date()
-    
-    var body: some View {
-        NavigationView{
-            Form(content:
-            {
-                Section(header:Text("字型設定"),content:{
-                    Picker(selection: $displayFontSelected,
-                           label:Text("字型選擇(\(displayFontSelected))"),
-                           content: {
-                                ForEach(0..<displayFontType.count,
-                                    id:\.self,
-                                    content:{
-                                        Text(self.displayFontType[$0])
-                        })
-                    })    
-                })
-                Section(header:Text("背景風格"),
-                        content:{
-                    Toggle(isOn: $IsDeepScheme,
-                           label:{Text("深色(\(String(IsDeepScheme)))")
-                        
-                    })
-                })
-                Section(header:Text("計數器")){
-                    Stepper("Stepper(\(stepperValue))",
-                            onIncrement:{stepperValue+=1},
-                            onDecrement:{stepperValue-=1}
-                    )
-                }
-                Section(header:Text("滑桿(\(sliderValue,specifier:"%.2f"))")){
-                    Slider(value:$sliderValue,in:0...1)
-                }
-                Section(header: Text("日期"), content: {
-                    DatePicker("\(date.formatted(date: .numeric, time: .omitted))", selection: $date, displayedComponents: [.date])
-                })
-            }).navigationBarTitle("Settings")
+    var body: some View {k
+        VStack {
+            Image(systemName:"face.smiling")
+                .font(.system(size:100))
+                .foregroundColor(.green)
+                .shadow(color:.gray, radius:5, x: 5, y:0.0)
+         Text("1103304王彥雅")
+                .fontWeight(.bold)
+                .font(.title)
+                .padding()
+            Image("影像內容")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width:200,height:200,alignment: .center)
+                .background(Color.yellow)
+                .clipShape(Circle())
+                .opacity(0.8)
+                .shadow(color: .gray, radius: 10, x: 0.0, y:0.0)
+            Text("I'm the one I should love in the world.")
+                .fontWeight(.heavy)
+                .lineSpacing(10)
+                .font(.system(size:16))
+                .foregroundColor(.white)
+                .frame(width:350,height:150,alignment:.center)
+                .background(Color.purple)
+                .cornerRadius(30)
+                .opacity(0.8)
         }
     }
 }
-
-``` 
- </tr>
+```
+    
+  </tr>
 </table>
