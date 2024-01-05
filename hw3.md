@@ -62,7 +62,7 @@ struct trophyView: View{
                 .frame(width: 159,
                        alignment:.center)
             Text("trophy")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .font(.system(size:30))
         }
     }
@@ -77,7 +77,7 @@ struct FruitView:View{
                 .frame(height:100,alignment:.center)
             //.capitalized = 首字大寫
             Text(imageName.capitalized)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .font(.system(size:25))
         }
     }
@@ -91,7 +91,7 @@ struct FishView: View{
                 .frame(width: 300,
                        alignment:.center)
             Text("Book")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .font(.system(size:30))
         }
     }
