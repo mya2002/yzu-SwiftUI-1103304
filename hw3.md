@@ -48,7 +48,7 @@ struct vaseView: View{
                 .frame(width: 150,
                        alignment:.center)
             Text("Vase")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
                 .font(.system(size:30))
         }
     }
